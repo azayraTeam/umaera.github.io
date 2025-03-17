@@ -9,28 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div class="title" id="title">⭐</div>
     <div class="bubble"></div>
-    <div class="picture"></div>
-    <div class="title" id="title"></div>
+    <!--<div class="picture"></div>-->
+    <div class="change" onclick="window.open('./changelog.html')">UIv2.5.2</div>
 </body>
-<script>
-window.onload = function() {
-    var userLang = navigator.language || navigator.userLanguage;
-
-    if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-        document.getElementById('title').textContent = 'bem-vindo';
-        setTimeout(goPT, 2000);
-    } else {
-        document.getElementById('title').textContent = 'welcome';
-        setTimeout(goEN, 2000);
-    }
-};
-
-function goPT() {
-    window.location.href = 'pt/'; 
-}
-
-function goEN() {
-    window.location.href = 'en/'; 
-}
-</script>
+<script src="phr.js"></script>

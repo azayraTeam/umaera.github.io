@@ -28,7 +28,7 @@ function setProfileImage(url) {
     };
     tempImage.onerror = () => {
         pfpElement.style.backgroundImage = 'url(credits/other/nowifi.png)';
-        document.getElementById('name').textContent = 'error loading: no internet';
+        document.getElementById('name').textContent = 'data could not load';
         document.getElementById('profile').textContent = '';
         setTimeout(() => {
             setProfileImage(url);
@@ -45,14 +45,14 @@ function executeAction(value) {
             document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
             document.getElementById('name').textContent = 'UmaEra';
             document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Creator';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'Creator & developer';
+            document.getElementById('profile').style.color = '#ff6090';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
 
                 if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                    document.getElementById('profile').textContent = 'Criadora';
+                    document.getElementById('profile').textContent = 'Criadora & programadora';
                 }
 
             break;
@@ -63,14 +63,14 @@ function executeAction(value) {
             document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
             document.getElementById('name').textContent = 'dhummy';
             document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Developer';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'Creator & Developer';
+            document.getElementById('profile').style.color = '#ff6090';
             
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
 
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Programadora';
+                document.getElementById('profile').textContent = 'Criadora & programadora';
             }
 
             break;
@@ -81,8 +81,8 @@ function executeAction(value) {
             document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
             document.getElementById('name').textContent = 'erica_zy';
             document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Designer and animator';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'Designer & animator';
+            document.getElementById('profile').style.color = '#ff6090';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
@@ -90,7 +90,7 @@ function executeAction(value) {
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
                 document.getElementById('profile').textContent = 'Designer & animadora';
             }
-
+            break;
         case 4:
                 document.getElementById('class').textContent = 'TeamEra';
                 document.getElementById('class').style.color = '#ff004c';
@@ -98,34 +98,35 @@ function executeAction(value) {
                 document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
                 document.getElementById('name').textContent = 'Insane';
                 document.getElementById('name').style.color = '#ff004c';
-                document.getElementById('profile').textContent = 'Software developer';
-                document.getElementById('profile').style.color = '#e06e6ee6';
+                document.getElementById('profile').textContent = 'developer';
+                document.getElementById('profile').style.color = '#ff6090';
     
                 document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
                 document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
 
                 if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                    document.getElementById('profile').textContent = 'Desenvolvedora de Software';
+                    document.getElementById('profile').textContent = 'programadora';
                 }
 
                 break;
         case 5:
-            document.getElementById('class').textContent = 'TeamEra';
-            document.getElementById('class').style.color = '#ff004c';
-            setProfileImage('../icons/pfp/shitist.webp');
-            document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
-            document.getElementById('name').textContent = 'ShiTist';
-            document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Animator';
-            document.getElementById('profile').style.color = '#e06e6ee6';
-
-            document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
-            document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
-
-            if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Animador';
-            }
-
+                document.getElementById('class').textContent = 'TeamEra';
+                document.getElementById('class').style.color = '#ff004c';
+                setProfileImage('../icons/pfp/devilwolf.webp');
+                document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
+                document.getElementById('name').textContent = 'DevilWolf';
+                document.getElementById('name').style.color = '#ff004c';
+                document.getElementById('profile').textContent = 'Designer & Concept helper';
+                document.getElementById('profile').style.color = '#ff6090';
+        
+                document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
+                document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
+        
+                if (userLang.startsWith('pt') || userLang.startsWith('br')) {
+                    document.getElementById('profile').textContent = 'Designer & Idealista';
+                    document.getElementById('class').textContent = 'TeamEra';
+                }
+                    
             break;
         case 6:
             document.getElementById('class').textContent = 'TeamEra';
@@ -134,14 +135,14 @@ function executeAction(value) {
             document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
             document.getElementById('name').textContent = 'Storm';
             document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Developer and designer';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'Visual Developer';
+            document.getElementById('profile').style.color = '#ff6090';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
 
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Programadora & Designer';
+                document.getElementById('profile').textContent = 'Programadora visual';
             } 
 
             break;
@@ -153,7 +154,7 @@ function executeAction(value) {
             document.getElementById('name').textContent = 'Isis';
             document.getElementById('name').style.color = '#ff004c';
             document.getElementById('profile').textContent = 'Designer';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#ff6090';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
@@ -166,8 +167,8 @@ function executeAction(value) {
             document.getElementById('pfp').style.boxShadow = '0 0 10px #ff004c';
             document.getElementById('name').textContent = 'abby';
             document.getElementById('name').style.color = '#ff004c';
-            document.getElementById('profile').textContent = 'Designer and Concept helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'Designer & Concept helper';
+            document.getElementById('profile').style.color = '#ff6090';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-red.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-red.png)';
@@ -175,18 +176,34 @@ function executeAction(value) {
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
                 document.getElementById('profile').textContent = 'Designer & Idealista';
             }
-
             break;
-        
         case 9:
-            document.getElementById('class').textContent = 'Helpers';
+            document.getElementById('class').textContent = 'ex-developers';
+            document.getElementById('class').style.color = '#ff6f00';
+            setProfileImage('../icons/pfp/shitist.jpg ');
+            document.getElementById('pfp').style.boxShadow = '0 0 10px#ff6f00';
+            document.getElementById('name').textContent = 'ShiTist';
+            document.getElementById('name').style.color = '#ff6f00';
+            document.getElementById('profile').textContent = 'Animator';
+            document.getElementById('profile').style.color = '#ff6f00';
+    
+            document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-yellow.png)';
+            document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-yellow.png)';
+    
+            if (userLang.startsWith('pt') || userLang.startsWith('br')) {
+                document.getElementById('class').textContent = 'ex-desenvolvedores';
+                 document.getElementById('profile').textContent = 'Animador';
+            }
+            break;
+        case 10:
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/peixe.webp');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent = 'Peixe';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Designer and animator';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
@@ -196,35 +213,16 @@ function executeAction(value) {
                 document.getElementById('class').textContent = 'Apoiantes';
             }
 
-            break;
-        case 10:
-            document.getElementById('class').textContent = 'Helpers';
-            document.getElementById('class').style.color = '#504cbe';
-            setProfileImage('../icons/pfp/devilwolf.webp');
-            document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
-            document.getElementById('name').textContent = 'DevilWolf';
-            document.getElementById('name').style.color = '#504cbe';
-            document.getElementById('profile').textContent = 'Designer and Concept helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
-
-            document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
-            document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
-
-            if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Designer & Idealista';
-                document.getElementById('class').textContent = 'Apoiantes';
-            }
-            
-            break;
+            break
         case 11:
-            document.getElementById('class').textContent = 'Helpers';
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/low.webp');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
-            document.getElementById('name').textContent = 'L0W__';
+            document.getElementById('name').textContent = 'L0W_';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Concept helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
@@ -236,33 +234,14 @@ function executeAction(value) {
 
             break;
         case 12:
-            document.getElementById('class').textContent = 'Helpers';
-            document.getElementById('class').style.color = '#504cbe';
-            setProfileImage('../icons/pfp/dede.webp');
-            document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
-            document.getElementById('name').textContent = 'Dede<3';
-            document.getElementById('name').style.color = '#504cbe';
-            document.getElementById('profile').textContent = 'UX helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
-        
-            document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
-            document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
-
-            if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Revisor experiência utilizador';
-                document.getElementById('class').textContent = 'Apoiantes';
-            }
-
-        break;
-        case 13:
-            document.getElementById('class').textContent = 'Helpers';
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/jjcia689.png');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent = 'JJCIA689';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Advisor and tester';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
@@ -273,15 +252,15 @@ function executeAction(value) {
             }
 
             break;
-        case 14:
-            document.getElementById('class').textContent = 'Helpers';
+        case 13:
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/nsei03.png');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent = 'nsei_03';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Big Supporter';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
@@ -292,34 +271,34 @@ function executeAction(value) {
             }
 
             break;
-        case 15:
-            document.getElementById('class').textContent = 'Helpers';
+        case 14:
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/oida.jpg');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent = 'oida';
             document.getElementById('name').style.color = '#504cbe';
-            document.getElementById('profile').textContent = 'teste and code helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').textContent = 'teste & extension creator';
+            document.getElementById('profile').style.color = '#756cff';
     
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
 
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
-                document.getElementById('profile').textContent = 'Testador & idealista de código';
+                document.getElementById('profile').textContent = "Testador & criador de extenções";
                 document.getElementById('class').textContent = 'Apoiantes';
             }
 
             break;
-        case 16:
-            document.getElementById('class').textContent = 'Helpers';
+        case 15:
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/raxx.webp');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent = 'raxx';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Designer';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
     
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
@@ -329,25 +308,45 @@ function executeAction(value) {
             }
 
             break;
-        case 17:
-            document.getElementById('class').textContent = 'Highlight';
+        case 16:
+            document.getElementById('class').textContent = 'Supporters';
             document.getElementById('class').style.color = '#504cbe';
             setProfileImage('../icons/pfp/naku.png');
             document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
             document.getElementById('name').textContent= 'Naku Mihau';
             document.getElementById('name').style.color = '#504cbe';
             document.getElementById('profile').textContent = 'Software architecture helper';
-            document.getElementById('profile').style.color = '#e06e6ee6';
+            document.getElementById('profile').style.color = '#756cff';
 
             if (userLang.startsWith('pt') || userLang.startsWith('br')) {
                 document.getElementById('profile').textContent = 'Ajudante arquitetura software';
-                document.getElementById('class').textContent = 'Destaque';
+                document.getElementById('class').textContent = 'Apoiantes';
             }
 
             document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
             document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
     
-            break;
+        break;
+        case 17:
+            document.getElementById('class').textContent = 'Supporters';
+            document.getElementById('class').style.color = '#504cbe';
+            setProfileImage('../icons/pfp/blazin-apelao.jpg');
+            document.getElementById('pfp').style.boxShadow = '0 0 10px #504cbe';
+            document.getElementById('name').textContent= 'BlazinApelão';
+            document.getElementById('name').style.color = '#504cbe';
+            document.getElementById('profile').textContent = 'network services nerd';
+            document.getElementById('profile').style.color = '#756cff';
+    
+            if (userLang.startsWith('pt') || userLang.startsWith('br')) {
+                document.getElementById('profile').textContent = 'nerd serviços de internet';
+                document.getElementById('class').textContent = 'Apoiantes';
+            }
+    
+            document.getElementById('right-arrow').style.backgroundImage = 'url(credits/other/right-arrow-blue.png)';
+            document.getElementById('left-arrow').style.backgroundImage = 'url(credits/other/left-arrow-blue.png)';
+        
+        break;
+        
         default:
     }
 }
